@@ -1,0 +1,72 @@
+body {
+	background-color: #232323;
+	margin: 0px;
+	font-family: "Gugi";
+}
+
+
+.square{
+	width: 30%;
+	background: purple;
+	padding-bottom: 30%;
+	float: left;
+	margin:1.66%;
+	transition: all 0.5s;
+	border-radius: 10%;
+}
+
+
+
+#container {
+	margin:20px auto;
+	max-width: 600px;
+}
+
+h1{
+	color: white;
+	text-align: center;
+	background-color: steelblue;
+	margin:0px;
+	font-weight: normal;
+	text-transform: uppercase;
+	transition: all 0.5s;
+}
+/*span{
+	color:white;
+}*/
+#stripe{
+	background: white;
+	height: 30px;
+	text-align: center;
+}
+
+.selected{
+	background: steelblue;
+	color: white;
+}
+
+#colorDisplay{
+	font-size: 150%;
+}
+
+button{
+	border: none; 
+	background-color: white;
+	text-transform: uppercase;
+	height: 100%;
+	color: steelblue;
+	font-family: "Gugi";
+	font-size: 15px;
+	transition: all 0.5s;
+	outline: none;
+}
+
+#message{
+	display: inline-block;
+	width: 20%;
+	color: steelblue;
+}
+button:hover {
+	color:white;
+	background: steelblue;
+}
